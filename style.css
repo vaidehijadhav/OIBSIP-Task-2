@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background: rgb(154, 100, 100);
+    color: rgb(218, 232, 245);
+}
+
+.container{
+    max-width: 90rem;
+    margin:2rem auto;
+    padding: 0px 2rem;
+}
+
+.header{
+    padding: 2rem;
+    margin:1rem 0px;
+    text-align: center;
+}
+
+.header > .text-center{
+    font-size: 4rem;
+}
+
+.header >.subtext{
+    font-size: 27px;
+}
+
+.header >.number{
+    font-size: 23px;
+}
+.header > .text-center .subtext{
+    margin-bottom: 1rem;
+}
+
+.tribute{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   max-width: 100rem;
+   margin:auto;
+   background:black;
+   color: white;
+   align-items: center;
+   padding: 0px 0px 0px 1rem;  
+}
+
+.tribute blockquote{
+    text-align: center;
+    font-size: 3rem;
+}
+
+.tribute img{
+    max-width: 100%;
+}
+
+.bio{
+    padding: 30px;
+    font-size: 25px;
+    margin: auto;
+}
+
+.bio p{
+    padding: 10px;
+    margin: auto;
+    font-size: 24px;
+    justify-content: center;
+}
+
+.first p::first-letter {
+    font-size: 38px;
+}
+
+.bio h2{
+    padding: 20px 0px 0px 0px;
+    margin: auto;
+    font-size: 39px;
+    text-decoration: underline;
+}
+
+.bio .heading{
+    padding: 10px 0px;
+    padding-left: 3em;
+    
+}
+
+.heading .name{
+    font-size: 25px;
+    color:rgb(230, 254, 254)
+}
+
+.heading .name .li{
+    padding: 10px;
+    margin: auto;
+    font-size: 23px;
+}
+
+.footer{
+    padding: 10px;
+    margin: auto;
+    font-size: 23px;
+}
